@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: coloumn;
+    height:100vh;
+}
+
+#grid-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.row{
+    display: flex;
+    flex:1 ;
+}
+
+.cell{
+    flex:1;
+    background-color: rgb(163,159,159);
+    border: 1px  solid white;
+}
+
+.Generate-Grid{
+    width: 100px;
+    height: 30px;
+    background-color:blue;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
